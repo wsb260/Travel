@@ -52,9 +52,11 @@ export default {
 	background: #fff;
 	border-radius: .1rem;
 	color:#ccc;
+	    text-indent: .1rem;
 }
 .header-right{
 	width: 1.24rem;
+	text-align: center;
 	.arrow-icon{
 		font-size:.2rem;
 	}
