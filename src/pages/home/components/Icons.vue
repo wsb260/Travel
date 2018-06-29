@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<swiper :options="swiperOption">
+		<swiper>
 			<swiper-slide v-for="(page,index) of pages" :key="index">
 				<div class="icons">
 					<div class="icon" v-for="item of page" :key="item.id">
